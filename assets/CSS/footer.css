@@ -1,0 +1,12 @@
+footer{
+    background-color: #17abb3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+img{
+    margin-left: 1em;
+    margin-right: 1em;
+}
