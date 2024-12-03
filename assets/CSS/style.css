@@ -1,0 +1,12 @@
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #e3e3e3;
+    width: 1160px;
+    padding: 0rem 5rem;
+}
