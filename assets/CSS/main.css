@@ -1,0 +1,54 @@
+
+.flex1{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.compétences{
+    background-color: #f5f5f5;
+    padding: 2em;
+    width: 350px;
+}
+h3{
+    color: #17abb3;
+}
+.flex2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.stars{
+    color: #17abb3;
+}
+li{
+    list-style-type: square;
+}
+li::marker{
+    color: #17abb3;
+}
+.profil{
+    background-color: #ffffff;
+    padding: 2em;
+}
+.indent p{
+    text-indent: 20px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+}
+h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.grid1 p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: italic;
+}
+.grid1:hover{
+    background-color: #e3e3e3;
+}

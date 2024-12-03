@@ -3,8 +3,9 @@ header{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding-left: 5em;
-    padding-right: 5em;
+    padding-right: 20em;
     background-color: #17abb3;
     color: #ffffff;
 }
@@ -13,12 +14,24 @@ header{
     border-radius: 50%;
     border: solid 0.3rem;
     margin-top: 1.5rem;
+    cursor: zoom-in;
+    text-decoration: none;
+    color: #ffffff;
+}
+header div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 address{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-p, a{
+p a{
     text-decoration: none;
     color: #ffffff;
+}
+p img{
+    width: 1,5em;
 }
