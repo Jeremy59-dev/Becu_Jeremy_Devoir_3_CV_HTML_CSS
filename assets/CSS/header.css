@@ -14,6 +14,9 @@ header{
     border-radius: 50%;
     border: solid 0.3rem;
     margin-top: 1.5rem;
+    cursor: zoom-in;
+    text-decoration: none;
+    color: #ffffff;
 }
 header div{
     display: flex;
