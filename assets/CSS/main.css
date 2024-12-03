@@ -1,0 +1,32 @@
+
+.flex1{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.compétences{
+    background-color: #f5f5f5;
+    padding: 2em;
+
+}
+h3{
+    color: #17abb3;
+}
+.flex2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.stars{
+    color: #17abb3;
+}
+li{
+    list-style-type: square;
+}
+li::marker{
+    color: #17abb3;
+}
+.profil{
+    background-color: #ffffff;
+    padding: 2em;
+}
