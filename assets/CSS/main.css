@@ -49,6 +49,9 @@ h4{
     margin-bottom: 0;
     font-style: italic;
 }
+.date{
+    color: #17abb3;
+}
 .grid1:hover{
     background-color: #e3e3e3;
 }
