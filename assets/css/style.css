@@ -1,0 +1,9 @@
+@import url(./header.css);
+@import url(./main.css);
+@import url();
+
+body{
+    background-color: #e3e3e3;
+    max-width: 1160px;
+    margin: 0em;
+}
