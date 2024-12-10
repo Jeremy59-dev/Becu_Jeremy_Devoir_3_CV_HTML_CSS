@@ -62,9 +62,13 @@ ul{
     grid-template-columns: repeat(2, 1fr);
     white-space: nowrap;
     align-items: center;
+    padding-top: 0em;
 }
 .right time{
     color: #17abb3;
     display: grid;
     justify-items: right;
+}
+article:hover{
+    background-color: #e3e3e3;
 }
