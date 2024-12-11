@@ -15,7 +15,12 @@ footer{
 .social img{
     width: 1.5em;
     padding: 1em;
+    transition: opacity 0.3s ease;
+}
+.social img:hover{
+    opacity: 0.5;
 }
 footer small{
     color: #ffffff;
+    margin-bottom: 1em;
 }
